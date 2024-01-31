@@ -55,6 +55,12 @@
         padding: 16px; /* 添加内边距以确保页面边缘对齐 */
     }
 
+    .video-grid-5 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px; /* 可以根据需要调整间隔 */
+      padding: 16px; /* 添加内边距以确保页面边缘对齐 */
+  }
     .video-container {
         position: relative;
         overflow: hidden;
@@ -227,17 +233,81 @@
   </div>
 </section>
 
-
-
 <section class="section">
   <div class="container is-max-desktop">
-
-
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Videos of the generated motion</h2>
         <div class="subtitle has-text-centered">
           <!-- <p>&nbsp;</p> -->
+          <!-- <p>Updated generated motion result on [2024.01.30]  
+          </p> -->
+          <p style="color:red; font-weight:bold;">Updated generated motion videos for rebuttal on  
+          <input type="date" id="start" name="trip-start" value="2024-01-31" min="2024-01-31" max="2024-01-31" /> </p>
+          <div class="video-grid-5">
+          <figure class="video-container">
+            <video class="video" controls>
+                <source src="videos_long/v10.mp4" type="video/mp4">
+            </video>
+        </figure>
+        <figure class="video-container">
+          <video class="video" controls>
+              <source src="videos_long/v9.mp4" type="video/mp4">
+          </video>
+      </figure>
+      <figure class="video-container">
+        <video class="video" controls>
+            <source src="videos_long/v8.mp4" type="video/mp4">
+        </video>
+    </figure>
+
+    <figure class="video-container">
+      <video class="video" controls>
+          <source src="videos_long/v7.mp4" type="video/mp4">
+      </video>
+  </figure>
+  <figure class="video-container">
+    <video class="video" controls>
+        <source src="videos_long/v6.mp4" type="video/mp4">
+    </video>
+</figure>
+<figure class="video-container">
+  <video class="video" controls>
+      <source src="videos_long/v5.mp4" type="video/mp4">
+  </video>
+</figure>
+<figure class="video-container">
+  <video class="video" controls>
+      <source src="videos_long/v4.mp4" type="video/mp4">
+</figure>
+<figure class="video-container">
+  <video class="video" controls>
+      <source src="videos_long/v3.mp4" type="video/mp4">
+  </video>
+</figure>
+<figure class="video-container">
+  <video class="video" controls>
+      <source src="videos_long/v2.mp4" type="video/mp4">
+  </video>
+</figure>
+<figure class="video-container">
+  <video class="video" controls>
+      <source src="videos_long/v1.mp4" type="video/mp4">
+  </video>
+
+</figure>
+  
+
+
+
+
+
+
+
+
+
+
+  </div>
           <p>We show a video of each instruction and its corresponding generated motion.
           </p>
           <!-- <img src="./static/images/figure_2_update_color.png" width="90%" style="margin-left: auto;margin-right: auto;display: block;"> -->
